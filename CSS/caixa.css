@@ -1,0 +1,38 @@
+body > h1{
+    font-family:cursive;text-align: center;
+}
+img{
+    display: block;
+}
+/* .assunto{
+    height: 30px;
+    width: 30px;
+    background-image: url(/img/pexels-aleksandar-pasaric-325185\ -\ Copy.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(82, 80, 80);
+} */
+/* input[type="file"]{
+    display: none;
+}
+.custom{
+    background: #DF464A;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    border-radius: 8px;
+    border: 0;
+
+    padding: 8px 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   
+        margin-right: 10px;
+   
+} */

@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 254, 254);
+    font-family:Tahoma, sans-serif;
+    
+}
+/* Barra de roagem */
+*{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+abbr{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(79, 47, 47);
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Corpo Base */
+main ul li{
+    font-size: large
+}
+main h1{
+    text-align: center;
+    font-size: 20px
+}
+footer P{
+    text-align: center;
+    font-size: 15px;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0 15px 0 5px;
+}
+main{
+    background-color:Z;
+    border-radius: 12px;
+    box-shadow: 55px 5px 5px 0px rgb(219, 219, 219);
+    width: auto;
+    padding: 10px;
+    margin: auto;
+}

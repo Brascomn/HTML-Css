@@ -1,0 +1,35 @@
+
+main{
+    background-color:Z;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
+    width: 850px;
+    padding: 10px;
+    margin: auto;
+}
+a,ul,li{
+    text-decoration: none;
+}
+
+div > p{
+    display:none;
+ }
+/* : são as pseudo-classes,tem que estar relacionadas 
+a um elemento ou classe,sabendo dos estado e podendo configuralas */
+div:hover >p{
+    display: block;
+    color: rgb(187, 31, 31);
+}
+h2{
+    text-align: center;
+    text-transform: unset;
+
+}
+.depois::after{
+    content: 'Isso é uma paragrafo Depois';
+    text-decoration: none;
+}
+.antes::before{
+    content: 'Isso é um paragrafo Antes';
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adpatam sozinhos</title>
+</head>
+<style>
+    div{
+        text-align: center;
+       
+
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Imagens Dinâmicas</h1>
+    <p style="text-align: center;" >Bráulio Valdir Sandrenha Chimuanga</p>
+    
+    <div>
+        <picture style="text-align: center;">
+            <!-- Imagens que se adaptam sozinhos
+            Importante que os sources estejam ordenados em forma de crescente.
+            P-M-G  no type temos que colocar o formato da imagem-->
+            <source media="(max-width:750px )"  srcset="img/P.png" type="image/png">
+            <source media="(max-width:990px )" srcset="img/M.png" type="image/png">
+            <img src="img/g.png" alt="Imagem Flexível">
+        </picture>
+    </div>
+    
+</body>
+</html>
